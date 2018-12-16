@@ -1,7 +1,7 @@
 class Post
-
-  def initalize(text)
-    @test=text
+  attr_accessor :title
+  def initalize(title)
+    @title=title
   end
 end
   
