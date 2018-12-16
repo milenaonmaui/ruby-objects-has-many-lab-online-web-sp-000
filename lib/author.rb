@@ -10,8 +10,7 @@ class Author
     @posts
   end
 
-  def add_post(post_text)
-    post = Post.new(post_text)
+  def add_post(post)
     post.author = self
   end
 end
